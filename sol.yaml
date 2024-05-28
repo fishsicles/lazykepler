@@ -1,0 +1,151 @@
+# settings
+settings:
+   # sets random seed for any mean anomaly values not specified in orbit data
+   seed: "RNGSEED"
+   # name of the origin
+   origin: "Sol"
+
+# units for text displays, constants for calculations
+units:
+   # unit for period, denominator of speed/acceleration
+   time: "day"
+   # unit for apses, numerator of speed/acceleration
+   dist: "AU"
+   # speed of light in vacuum
+   c: 173.1
+   # acceleration due to gravity on earth
+   g: 0.489
+
+# orbital parameters by name of body
+orbits:
+   Mercury:
+      aphelion: 0.466697
+      perihelion: 0.307499
+      period: 87.9691
+      eccentricity: 0.205630
+      inclination: 7.005
+      longitudeOfAscendingNode: 48.331
+      argumentOfPeriapsis: 29.124
+      visual: "r+"
+   Venus:
+      aphelion: 0.728213
+      perihelion: 0.718440
+      period: 583.92
+      eccentricity: 0.006772
+      inclination: 3.39458
+      longitudeOfAscendingNode: 76.680
+      argumentOfPeriapsis: 54.884
+   Earth:
+      aphelion: 1.01671033
+      perihelion: 0.98328989
+      period: 325.25636
+      eccentricity: 0.0167086
+      inclination: 0
+      longitudeOfAscendingNode: 174.9
+      argumentOfPeriapsis: 288.1
+      meanAnomaly: 0
+   Mars:
+      aphelion: 1.66621
+      perihelion: 1.3814
+      period: 686.980
+      eccentricity: 0.0934
+      inclination: 1.850
+      longitudeOfAscendingNode: 4.57854
+      argumentOfPeriapsis: 286.5
+   Ceres:
+      aphelion: 2.98
+      perihelion: 2.55
+      period: 466.6
+      eccentricity: 0.0785
+      inclination: 10.6
+      longitudeOfAscendingNode: 80.3
+      argumentOfPeriapsis: 73.6
+   Jupiter:
+      aphelion: 5.4570
+      perihelion: 4.9506
+      period: 4332.59
+      eccentricity: 0.0489
+      inclination: 1.303
+      longitudeOfAscendingNode: 100.464
+      argumentOfPeriapsis: 283.867
+   Saturn:
+      aphelion: 10.1238
+      perihelion: 9.0412
+      period: 10755.70
+      eccentricity: 0.0565
+      inclination: 2.485
+      longitudeOfAscendingNode: 113.665
+      argumentOfPeriapsis: 339.392
+   Uranus:
+      aphelion: 20.0965
+      perihelion: 18.2861
+      period: 30688.5
+      eccentricity: 0.04717
+      inclination: 0.773
+      longitudeOfAscendingNode: 7.4006
+      argumentOfPeriapsis: 96.998857
+   Neptune:
+      aphelion: 30.33
+      perihelion: 29.81
+      period: 60195
+      eccentricity: 0.008678
+      inclination: 1.770
+      longitudeOfAscendingNode: 131.783
+      argumentOfPeriapsis: 273.187
+   Pluto:
+      aphelion: 49.305
+      perihelion: 29.658
+      period: 90560
+      eccentricity: 0.2488
+      inclination: 17.16
+      longitudeOfAscendingNode: 110.299
+      argumentOfPeriapsis: 113.834
+   Quaoar:
+      aphelion: 45.488
+      perihelion: 41.900
+      period: 105495
+      eccentricity: 0.04106
+      inclination: 7.9895
+      longitudeOfAscendingNode: 188.927
+      argumentOfPeriapsis: 147.480
+   Haumea:
+      aphelion: 51.585
+      perihelion: 34.647
+      period: 103410
+      eccentricity: 0.19642
+      inclination: 28.2137
+      longitudeOfAscendingNode: 122.167
+      argumentOfPeriapsis: 239.041
+   Eris:
+      aphelion: 97.457
+      perihelion: 38.271
+      period: 204199
+      eccentricity: 0.43607
+      inclination: 44.040
+      longitudeOfAscendingNode: 35.951
+      argumentOfPeriapsis: 151.639
+   Makemake:
+      aphelion: 52.756
+      perihelion: 38.104
+      period: 111845
+      eccentricity: 0.16126
+      inclination: 28.9835
+      longitudeOfAscendingNode: 79.620
+      argumentOfPeriapsis: 294.834
+   Gonggong:
+      aphelion: 101.190
+      perihelion: 33.781
+      period: 202484
+      eccentricity: 0.49943
+      inclination: 30.6273
+      longitudeOfAscendingNode: 336.8573
+      argumentOfPeriapsis: 207.6675
+# sedna is included for completion's sake but commented out by default because it is apsis georg
+#   Sedna:
+#      aphelion: 937
+#      perihelion: 76.19
+#      period: 4160197.5
+#      eccentricity: 0.8496
+#      inclination: 11.9307
+#      longitudeOfAscendingNode: 144.248
+#      argumentOfPeriapsis: 311.352
